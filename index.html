@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrador-flex</title>    
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#">
+                    <img src="./img/codoacodo.png" alt="Logo">
+                </a>
+                <h2>Conf. Bs.As.</h2>
+            </div>
+            <nav class="nav-header">
+                <ul class="nav-menu">
+                    <li><a class="menu-item color-blanco" href="#conferencia">La Conferencia</a></li>
+                    <li><a class="menu-item color-gris" href="#orador">Los Oradores</a></li>
+                    <li><a class="menu-item color-gris" href="#lugar">Lugar y La Fecha</a></li>
+                    <li><a class="menu-item color-gris" href="#formulario-orador">Conviertete en Orador</a></li>
+                    <li><a class="menu-item color-verde" href="./pages/comprar.html">Comprar tickets</a></li>
+                </ul>
+            </nav>
+        </div>  
+        <section id ="conferencia" class="conferencia ">
+           <div class="conferencia-container">
+                <h1>Conf Bs As</h1>
+                <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet.
+                    Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                <div class="boton-container">
+                    <a class="boton-orador" href="#formulario-orador">Quiero ser orador</a>
+                    <a class="boton-comprar" href="./pages/comprar.html">Comprar tickets</a>
+                </div>
+           </div>
+        </section>
+   </header>
+   <main>
+    <section id="orador" class="section-oradores">
+        <h2><span class="span-titulo">CONOCE A LOS</span><br>ORADORES</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="./img/steve.jpg" alt="Steve Jobs">
+                <div class="card-container">
+                    <div class="card-tag">
+                        <h4 class="tag-1">Javascript</h4>
+                        <h4 class="tag-2">React</h4>
+                    </div>
+                    <h2>Steve Jobs</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam debitis ullam voluptates fugiat nemo, excepturi, distinctio hic quisquam voluptatem quidem sequi! Odio odit aliquam, non molestias repudiandae fugit repellat at!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/bill.jpg" alt="Bill Gates">
+                <div class="card-container">
+                    <div class="card-tag">
+                        <h4 class="tag-1">Javascript</h4>
+                        <h4 class="tag-2">React</h4>
+                    </div>
+                    <h2>Bill Gates</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam debitis ullam voluptates fugiat nemo, excepturi, distinctio hic quisquam voluptatem quidem sequi! Odio odit aliquam, non molestias repudiandae fugit repellat at!</p>
+                </div>
+              
+            </div>
+            <div class="card">
+                <img src="./img/ada.jpeg" alt="Ada">
+                <div class="card-container">
+                    <div class="card-tag">
+                        <h4 class="tag-3">Negocios</h4>
+                        <h4 class="tag-4">Startups</h4>
+                    </div>
+                    <h2>Ada Lovelace</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam debitis ullam voluptates fugiat nemo, excepturi, distinctio hic quisquam voluptatem quidem sequi! Odio odit aliquam, non molestias repudiandae fugit repellat at!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="lugar" class="lugar">
+        <div class="lugar-imagen">
+
+        </div>
+        <div class="lugar-descripcion">
+            <h2>Bs.As - Octubre</h2>
+            <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses.Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km de superficie).</p>
+            <a class="boton-lugar" href="">Conocé Más</a>
+        </div>
+    </section>
+    <section id="formulario-orador" class="form-container">
+        <h2><span class="span-titulo">CONVIERTETE EN UN </span> <br> ORADOR</h2>
+        <p>Anótate como orador para dar una <span class="span-form">charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
+        <form action="" autocomplete="on">
+                <input  class="form-nombre" type="text" placeholder="Nombre" required>
+                <input class="form-nombre" type="text" placeholder="Apellido" required>
+                <textarea class="form-text" name="" id="" cols="44" rows="6" placeholder="Sobre que quieres hablar?" required></textarea>
+                <p>Recuerda incluir un título para tu charla</p>
+                <input type="submit" value="Enviar" class="form-submit">
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="#Preguntas frecuentes">Preguntas frecuentes</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#prensa">Prensa</a>
+            <a href="#conferencias">Conferencias</a>
+            <a href="#condiciones">Términos y Condiciones</a>
+            <a href="#privacidad">Privacidad</a>
+            <a href="#estudiantes">Estudiantes</a>
+            <img class="wsp" src="./img/whatsapp.png" alt="what">        
+        </div>
+   </footer>
+</main>
+</body>
+</html>
